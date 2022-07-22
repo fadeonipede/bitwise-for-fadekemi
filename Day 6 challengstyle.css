@@ -1,0 +1,79 @@
+/* creates border around main elements */
+.border{
+    border-radius: 8px;
+    border: 0.5px solid black;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px grey;
+}
+.left{ float:left; width: 50%;}
+
+.right{ float: right; width: 50%; }
+
+footer{clear: both;}
+/* set background color to white */
+/* made into a class to save line space in stylesheet */
+nav > a {
+    text-decoration: none;
+    margin: 0 80px;
+    word-spacing: 5px;
+}
+
+a
+.clearfix{
+    clear: both;
+}
+/* a visited link*/
+
+.white{color:;}
+
+
+/*set height of section, article, and aside elements */
+/*pixel calculation: section(250) + article(250) + border(section(0.5 + 0.5) + article(0.5 + 0.5))  + margin(5) = 507px*/
+
+section, article{ height: 500px; }
+aside{ height: 1007px; }
+
+/*set background color and align text to the center*/
+body{
+    background-image: url(imag/bry9\ copy.avif);
+    height: 200vh;
+    text-align: center;
+    padding: 5px;
+    background-position: center center; 
+    text-shadow: 0 0 5px;
+    
+}
+h2{
+    border: 0.5px dotted white;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav{
+    padding: 10px;
+    position:sticky;
+    top: 0px;
+    width: 100%;
+}
+
+a:link{ text-decoration: none;
+
+}
+a:visited{
+    color:brown;
+    text-decoration: none;
+}
+a:hover {
+    padding: 10px;
+    background-color: black;
+}
+
+a:active{
+    color: green
+}
+h6,p{
+    text-align: center;
+}
+
+
